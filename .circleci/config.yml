@@ -35,7 +35,7 @@ jobs:
       - image: circleci/ruby:2.4.1-jessie
     steps:
       - checkout
-      - run echo "Darova"
+      - run: echo "Darova"
 workflows:
   version: 2
   one_and_two:
